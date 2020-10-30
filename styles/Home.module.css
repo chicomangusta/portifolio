@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #4AA4B2
 }
 
 .main {
@@ -14,15 +15,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #4AA4B2;
 }
+
 
 .footer {
   width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
+  height: 73px;
+  border: 3px solid black;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #318997;
+  color: black;
 }
 
 .footer img {
@@ -36,20 +43,39 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #FF5700;
   text-decoration: none;
+  font-weight: 200;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-weight: 200;
+  
+}
+
+.line {
+  border: 1px solid black;
+  height: 10px;
+  width: 10px
 }
 
 .title {
+  border: 3px solid rgb(85, 85, 85);
+  width: 600px;
+  height: 400px;
+  background-color: #DBD8C6;
+  box-shadow: 2px 2px 10px;
+  border-radius: 15px;
+  padding: 10px;
   margin: 0;
+  margin-top: -227px;
+  /* margin-left: -2500px; */
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: 200;
 }
 
 .title,
@@ -57,9 +83,33 @@
   text-align: center;
 }
 
+
+.logo {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px;
+  height: 200px;
+  width: 200px;
+  margin-right: 1400px;
+  margin-top: 50px;
+}
+
+
+.footerLogo {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px;
+  height: 50px;
+  width: 50px;
+}
+
+
 .description {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 0px;
+  color: black;
 }
 
 .code {
@@ -68,7 +118,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+    Bitstream Vera Sans Mono, Courier New, monospace, Raleway;
 }
 
 .grid {
@@ -76,32 +126,84 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  max-width: 1000px;
+  margin-top: -27rem;
 }
 
+
+ .git {
+  height: 100px;
+  width:  100px;
+  margin-left: 500px;
+  margin-top: 20px;
+
+}
+
+ 
+.linkedin {
+  /* border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px; */
+  height: 100px;
+  width:  100px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.instagram {
+  /* border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px; */
+  height: 100px;
+  width:  100px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.contato {
+  /* border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px; */
+  height: 112px;
+  width:  112px;
+  margin-left: 500px;
+  margin-top: 15px;  
+}
+
+
+
 .card {
+  width: 500px;
+  height: 400px;
+  background-color: #DBD8C6;
+  font-weight: 300;
   margin: 1rem;
+  margin-bottom: 20px;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px black;
   transition: color 0.15s ease, border-color 0.15s ease;
+  
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #a7a09c;
+  border-color: black;
+  box-shadow: 1px 1px 50px black;
+  /* background-color: #858690; */
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .card p {
@@ -110,9 +212,7 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-}
+
 
 @media (max-width: 600px) {
   .grid {
