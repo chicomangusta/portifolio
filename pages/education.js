@@ -13,6 +13,8 @@ export default function Education() {
           <a>Back to home</a>
         </Link>
       </h3>
+
+      
     </>
   );
 }

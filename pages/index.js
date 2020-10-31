@@ -92,17 +92,19 @@ export default function Home() {
           {/* SKILLS */}
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
-            <ul>
-              <li>NEXT.JS</li>
-              <br />
-              <li>REACT</li>
-              <br />
-              <li>JAVASCRIPT</li>
-              <br />
-              <li>HTML</li>
-              <br />
-              <li>CSS</li>
-            </ul>
+
+              <ul>
+                <li>NEXT.JS</li>
+                <br />
+                <li>REACT</li>
+                <br />
+                <li>JAVASCRIPT</li>
+                <br />
+                <li>HTML</li>
+                <br />
+                <li>CSS</li>
+              </ul>
+
             <p>MORE&rarr;</p>
           </a>
 
