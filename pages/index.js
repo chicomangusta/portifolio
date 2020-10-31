@@ -66,22 +66,17 @@ export default function Home() {
         </a>
 
         {/* CONTATO */}
-        <a href="" className={styles.contato}>
+        <a href="/contato" className={styles.contato}>
           <img src="email.png" className={styles.contato} />
         </a>
+
+        {/* ------------------------------------------------------------------------------------------------ */}
+        {/* CARDS */}
+        {/* ------------------------------------------------------------------------------------------------ */}
+
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h3>SKILLS &rarr;</h3>
-            <p>NEXT.JS</p> <br />
-            <p>REACT</p>
-          </a>
-
-          {/* ------------------------------------------------------------------------------------------------ */}
-          {/* CARDS */}
-          {/* ------------------------------------------------------------------------------------------------ */}
-
           {/* ABOUT ME */}
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/about" className={styles.card}>
             <h3>ABOUT ME &rarr;</h3>
             <p>
               A little bit of my background
@@ -94,24 +89,31 @@ export default function Home() {
               BETTER WORLD FOR EVERYONE. */}
             </p>
           </a>
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+
+          
+          {/* SKILLS */}
+          <a href="/skills" className={styles.card}>
+            <h3>SKILLS &rarr;</h3>
+            <p>NEXT.JS</p> <br />
+            <p>REACT</p>
+          </a>
+
+          {/* EDUCATION */}
+          <a href="/education" className={styles.card}>
             <h3>EDUCATION &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+
+          {/* PROJECTS */}
+          <a href="/projects" className={styles.card}>
             <h3>PROJECTS &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
         </div>
-        <script
+
+        {/* <script
           src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
           integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
           crossOrigin="anonymous"
@@ -120,7 +122,7 @@ export default function Home() {
           src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
           crossOrigin="anonymous"
-        ></script>
+        ></script> */}
       </main>
 
       {/* ------------------------------------------------------------------------------------------------ */}
