@@ -4,6 +4,9 @@ import Link   from 'next/link'
 
 
 
+import styles from "../styles/Home.module.css";
+
+
 
 export default function Contato() {
     return (
@@ -17,7 +20,7 @@ export default function Contato() {
         </h3>
 
         <div className="click-animations">
-          <h2 className="new-section">Click Animations</h2>
+          <h2 className="new-section">SEND ME A MESSAGE</h2>
           <form>
             <input type="text" placeholder="Name" id="name" />
             <input type="text" placeholder="Email" id="email" />

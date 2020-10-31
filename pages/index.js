@@ -79,37 +79,59 @@ export default function Home() {
           <a href="/about" className={styles.card}>
             <h3>ABOUT ME &rarr;</h3>
             <p>
-              A little bit of my background
-              {/* HI, IA AM ANDRE TORRES AN SOFTWARE ENGINEER WITH A CREATIVE MIND,
-              DEVELOPING FRONT-END AND BACK-END APPLICATIONS. WITH MY BACK
-              BACKGROUND SKILLS IN CINEMATOGRAPHY MAKES ME CREATE SOLUTIONS TO
-              CREATE A BETTER DESIGN AND CODE CLEAN APPLICATIONS. ABLE TO
-              PERFORM COLLABORATIVELY WITH TEAMWORK AND IN REMOTE, WITH A KEEN
-              VISION FOR DETAILS AND HELP SOLVE PROBLEMS, TRYING TO MAKE A
-              BETTER WORLD FOR EVERYONE. */}
+              Hi, I'm Andre Torres an Software Engineer with a creative mind,
+              developing front-end and back-end applications. I have a back
+              background skills in cinematography that makes me create solutions
+              to make a better design and a better, clean code applications,
+              creating solutions for a better world for everyone.
             </p>
+            <br />
+            <p>MORE&rarr;</p>
           </a>
 
-          
           {/* SKILLS */}
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
-            <p>NEXT.JS</p> <br />
-            <p>REACT</p>
+            <ul>
+              <li>NEXT.JS</li>
+              <br />
+              <li>REACT</li>
+              <br />
+              <li>JAVASCRIPT</li>
+              <br />
+              <li>HTML</li>
+              <br />
+              <li>CSS</li>
+            </ul>
+            <p>MORE&rarr;</p>
           </a>
 
           {/* EDUCATION */}
           <a href="/education" className={styles.card}>
             <h3>EDUCATION &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <ul>
+              <li>Software Engineer - General Assembly</li>
+              <br />
+              <li>JavaScript Developer - General Assembly</li>
+              <br />
+              <li>Front-End Web Developer - General Assembly</li> <br />
+            </ul>
+            <p>MORE&rarr;</p>
           </a>
 
           {/* PROJECTS */}
           <a href="/projects" className={styles.card}>
             <h3>PROJECTS &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <ul>
+              <li>To do List - Final Project - GA</li>
+              <br />
+              <li>Duck Hunt - First Project - GA</li>
+              <br />
+              <li>Codesk - Third Project - GA</li>
+              <br />
+              <li>No Dig No Ride - Fourth Project - GA </li> <br />
+            </ul>
+            <p>MORE&rarr;</p>
           </a>
         </div>
 

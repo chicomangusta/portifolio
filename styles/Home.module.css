@@ -176,7 +176,8 @@
   width: 500px;
   height: 400px;
   background-color: #DBD8C6;
-  font-weight: 300;
+  font-weight: 600;
+  font-size: 25px;
   margin: 1rem;
   margin-bottom: 20px;
   flex-basis: 45%;
@@ -202,15 +203,83 @@
 
 .card h3 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.7rem;
+  font-weight: 800;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
+  font-weight: 500;
   line-height: 1.5;
+  display: flex;
+  text-align: justify; 
 }
+
+.card li {
+  font-weight: 400;
+}
+
+
+/* Click animations styles */
+
+.click-animations {
+  margin-top: 35px;
+  padding-bottom: 20px;
+  background: #f6f8fa;
+}
+
+.click-animations input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  height: 50px;
+  width: 50%;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.click-animations textarea {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid transparent;
+  resize: none;
+  transition: 0.3s;
+}
+
+.click-animations input:focus,
+.click-animations textarea:focus {
+  border-color: #30cc8b;
+}
+
+.click-animations button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background: #30cc8b;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.click-animations button:active {
+  transform: scale(0.95);
+}
+
+.form-error {
+  border-color: #F46036 !important;
+}
+
 
 
 
