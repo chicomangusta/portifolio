@@ -22,6 +22,7 @@ export default function Home() {
           Andre Torres Developer
         </title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"></link>
       </Head>
 
       {/* ------------------------------------------------------------------------------------------------ */}
@@ -70,6 +71,7 @@ export default function Home() {
           <img src="email.png" className={styles.contato} />
         </a>
 
+
         {/* ------------------------------------------------------------------------------------------------ */}
         {/* CARDS */}
         {/* ------------------------------------------------------------------------------------------------ */}
@@ -93,17 +95,17 @@ export default function Home() {
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
 
-              <ul>
-                <li>NEXT.JS</li>
-                <br />
-                <li>REACT</li>
-                <br />
-                <li>JAVASCRIPT</li>
-                <br />
-                <li>HTML</li>
-                <br />
-                <li>CSS</li>
-              </ul>
+            <ul>
+              <li>NEXT.JS</li>
+              <br />
+              <li>REACT</li>
+              <br />
+              <li>JAVASCRIPT</li>
+              <br />
+              <li>HTML</li>
+              <br />
+              <li>CSS</li>
+            </ul>
 
             <p>MORE&rarr;</p>
           </a>
@@ -157,7 +159,7 @@ export default function Home() {
         <a>
           Created by &copy; Andre Torres 2020
           <img
-            src="logo_size_laranja.jpg"
+            src="/logo_size_laranja.jpg"
             alt="Logo"
             className={styles.footerLogo}
           />

@@ -222,64 +222,7 @@
 
 
 
-/* Click animations styles */
 
-.click-animations {
-  margin-top: 35px;
-  padding-bottom: 20px;
-  background: #f6f8fa;
-}
-
-.click-animations input {
-  display: block;
-  margin: 20px auto;
-  padding: 10px;
-  height: 50px;
-  width: 50%;
-  font-size: 30px;
-  outline: none;
-  border: 2px solid transparent;
-  transition: 0.3s;
-}
-
-.click-animations textarea {
-  display: block;
-  margin: 20px auto;
-  padding: 10px;
-  width: 50%;
-  font-size: 30px;
-  outline: none;
-  border: 2px solid transparent;
-  resize: none;
-  transition: 0.3s;
-}
-
-.click-animations input:focus,
-.click-animations textarea:focus {
-  border-color: #30cc8b;
-}
-
-.click-animations button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px;
-  width: 50%;
-  font-size: 30px;
-  border: none;
-  outline: none;
-  background: #30cc8b;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.click-animations button:active {
-  transform: scale(0.95);
-}
-
-.form-error {
-  border-color: #F46036 !important;
-}
 
 
 
@@ -290,3 +233,6 @@
     flex-direction: column;
   }
 }
+
+
+
