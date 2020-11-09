@@ -22,7 +22,10 @@ export default function Home() {
           Andre Torres Developer
         </title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       {/* ------------------------------------------------------------------------------------------------ */}
@@ -71,7 +74,6 @@ export default function Home() {
           <img src="email.png" className={styles.contato} />
         </a>
 
-
         {/* ------------------------------------------------------------------------------------------------ */}
         {/* CARDS */}
         {/* ------------------------------------------------------------------------------------------------ */}
@@ -82,10 +84,13 @@ export default function Home() {
             <h3>ABOUT ME &rarr;</h3>
             <p>
               Hi, I'm Andre Torres an Software Engineer with a creative mind,
-              developing front-end and back-end applications. I have a back
-              background skills in cinematography that makes me create solutions
-              to make a better design and a better, clean code applications,
-              creating solutions for a better world for everyone.
+              developing front-end and back-end applications.
+            </p>  
+              <br />
+            <p>
+              I am a constant
+              learner and this has helped me to keep myself productive and
+              motivated.
             </p>
             <br />
             <p>MORE&rarr;</p>
