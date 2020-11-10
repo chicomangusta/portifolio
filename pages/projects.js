@@ -13,7 +13,7 @@ export default function Projects() {
         </h3>
 
         <div className={styles.card_edu}>
-          <p>projs</p>
+          <p>UNDER CONSTRUCTION</p>
         </div>
       </div>
     </>
