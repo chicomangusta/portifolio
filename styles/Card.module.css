@@ -30,9 +30,9 @@
 }
 
 .container h1 {
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: -200px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
   }
 
 
@@ -100,6 +100,39 @@
 /* =============================== */
 /* PROJECTS */
 /* =============================== */
+/* TODO LIST */
+.snap {
+  width: 300px;
+  height: 200px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.todoTtitle {
+  font-size: 25px;
+  color: #E85D2C;
+  font-weight: 400;
+  /* text-decoration: underline; */
+  /* margin-left: 100px; */
+}
+
+.todoDesc {
+  /* border: 2px solid red; */
+  width: 450px;
+  font-size: 15px;
+  font-weight: 300;
+  
+}
+/* =============================== */
+
+
 
 
 /* =============================== */
