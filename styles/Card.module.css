@@ -75,6 +75,7 @@
   margin-right: 200px;
   margin-bottom: 140px;
   margin-left: 200px;
+  text-decoration: underline;
 }
 
 
@@ -93,6 +94,7 @@
   margin-right: 200px;
   margin-bottom: 140px;
   margin-left: 200px;
+  text-decoration: underline;
 }
 
 
@@ -110,6 +112,7 @@
   margin-right: 200px;
   margin-bottom: 140px;
   margin-left: 200px;
+  text-decoration: underline;
 }
 
 
@@ -131,7 +134,7 @@
   width: 400px;
   height: 00px;
   background-color: #DBD8C6;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 25px;
   margin: 1rem;
   margin-bottom: 20px;

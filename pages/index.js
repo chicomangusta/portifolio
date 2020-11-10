@@ -85,13 +85,13 @@ export default function Home() {
             <p>
               Hi, I'm Andre Torres an Software Engineer with a creative mind,
               developing front-end and back-end applications.
-            </p>  
-              <br />
-            <p>
-              I am a constant
-              learner and this has helped me to keep myself productive and
-              motivated.
             </p>
+            <br />
+            <p>
+              I am a constant learner and this has helped me to keep myself
+              productive and motivated.
+            </p>
+            <br />
             <br />
             <p>MORE&rarr;</p>
           </a>
@@ -99,20 +99,20 @@ export default function Home() {
           {/* SKILLS */}
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
-
-            <ul>
-              <li>NEXT.JS</li>
-              <br />
-              <li>REACT</li>
-              <br />
-              <li>JAVASCRIPT</li>
-              <br />
-              <li>HTML</li>
-              <br />
-              <li>CSS</li>
-            </ul>
-
-            <p>MORE&rarr;</p>
+            <div className={styles.cardSkill}>
+              <ul>
+                <li>NEXT.JS</li>
+                <br />
+                <li>REACT</li>
+                <br />
+                <li>JAVASCRIPT</li>
+                <br />
+                <li>HTML</li>
+                <br />
+                <li>CSS</li>
+              </ul>
+            </div>
+            <p className={styles.moreP}>MORE&rarr;</p>
           </a>
 
           {/* EDUCATION */}

@@ -26,6 +26,19 @@ export default function Skills() {
                 <li>HTML</li>
                 <br />
                 <li>CSS</li>
+                <br />
+                <li>SASS</li>
+                <br />
+                <li>JQUERY</li>
+                <br />
+                <li>BOOTSTRAP</li>
+                <br />
+                <li>GITHUB</li>
+                <br />
+                <li>API | AXIOS</li>
+                <br />
+                <li>RUBY</li>
+                <br />
               </ul>
             </div>
           </div>
@@ -35,15 +48,22 @@ export default function Skills() {
             <p className={styles.pFront2}>BackEnd</p>
             <div className={styles.backEnd}>
               <ul>
-                <li>NEXT.JS</li>
-                <br />
                 <li>REACT</li>
                 <br />
-                <li>JAVASCRIPT</li>
+                <li>NODE</li>
                 <br />
-                <li>HTML</li>
+                <li>EXPRESS</li>
                 <br />
-                <li>CSS</li>
+                <li>MONGODB</li>
+                <br />
+                <li>POSTGRESSQL</li>
+                <br />
+                <li>RUBY on RAILS</li>
+                <br />
+                <li>FIREBASE</li>
+                <br />
+                <li>RUBY on RAILS</li>
+                <br />
               </ul>
             </div>
           </div>
@@ -53,15 +73,15 @@ export default function Skills() {
             <p className={styles.pFront3}>Other Technologies</p>
             <div className={styles.otherEnd}>
               <ul>
-                <li>NEXT.JS</li>
+                <li></li>
                 <br />
-                <li>REACT</li>
+                <li>Adobe Photoshop</li>
                 <br />
-                <li>JAVASCRIPT</li>
+                <li>Adobe Illustrator</li>
                 <br />
-                <li>HTML</li>
+                <li>Adobe After Effects</li>
                 <br />
-                <li>CSS</li>
+                <li>Adobe Premiere</li>
               </ul>
             </div>
           </div>
