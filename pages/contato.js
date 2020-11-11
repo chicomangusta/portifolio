@@ -25,8 +25,9 @@ export default function Contato() {
             <button>SEND</button>
           </div>
         <div className={styles.emailink}>
-          <h5>andreptorres@gmail.com</h5>
+          {/* <h5>andreptorres@gmail.com</h5> */}
           <h5>andreptorres@me.com</h5>
+          <a href="andreptorres@gmail.com">andreptorres@gmail.com</a>
         </div>
 
         </div>
