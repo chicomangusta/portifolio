@@ -12,7 +12,7 @@
 
 .card_edu {
   width: 900px;
-  height: 400px;
+  height: 500px;
   background-color: #DBD8C6;
   font-weight: 600;
   font-size: 25px;
@@ -173,6 +173,7 @@
 
 .container h3 {
   margin-top: -20px;
+  
 }
 
 .pFront1 {
@@ -368,10 +369,9 @@
 .newSection {
   padding-top: 50px;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: 300;
 }
-
 
 
 .cform {
@@ -384,26 +384,26 @@
   display: block;
   margin: 20px auto;
   padding: 10px;
-  height: 50px;
-  width: 100%;
-  font-size: 30px;
+  height: 30px;
+  width: 55%;
+  font-size: 20px;
   outline: none;
   border: 2px solid transparent;
   transition: 0.3s;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .form textarea {
   display: block;
   margin: 20px auto;
   padding: 10px;
-  width: 100%;
-  font-size: 30px;
+  width: 55%;
+  font-size: 20px;
   outline: none;
   border: 2px solid transparent;
   border-radius: 15px;
   resize: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .form input:focus,
@@ -416,7 +416,8 @@
   display: block;
   margin: 20px auto;
   padding: 10px;
-  width: 50%;
+  width: 25%;
+  height: 70;
   font-size: 30px;
   border: 1px solid black;
   box-shadow: 4px 3px 10px black;
@@ -435,4 +436,80 @@
 
 .form-error {
   border-color: #FF5700 !important;
+}
+
+
+
+/* ========================= */
+
+.emailLink {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+
+.me {
+  font-size: 20px;
+  font-weight: 300;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 60px;
+  margin-top: -26px;
+}
+
+.mailMe img {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* ========================== */
+.gmail {
+  font-size: 20px;
+  font-weight: 300;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 30px;
+  margin-top: -27px;
+}
+
+.gmail img {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-right: ;
+}
+
+.gmailLink {
+  margin-left: 60px;
+  margin-top: -26px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* ======================= */
+.phoneLogo {
+  font-size: 20px;
+  font-weight: 300;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 30px;
+  margin-top: -27px;
+}
+
+.phoneLogo img {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+  margin-right: ;
+}
+
+.phone {
+  margin-left: 60px;
+  margin-top: -26px;
+  font-size: 20px;
+  font-weight: 300;
 }

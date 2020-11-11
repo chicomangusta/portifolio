@@ -15,19 +15,42 @@ export default function Contato() {
 
         <div className={styles.card_edu}>
           <div className={styles.form}>
-            <h2 className={styles.newSection}>SEND ME A MESSAGE</h2>
+            <h2 className={styles.newSection}>CONTACT ME</h2>
             <form method="POST" className="contact-form">
               <input type="text" placeholder="Name" id="name" />
               <input type="text" placeholder="Email" id="email" />
               <input type="text" placeholder="Subject" id="subject" />
-              <textarea rows="8" placeholder="Message" id="message"></textarea>
+              <textarea rows="6" placeholder="Message" id="message"></textarea>
             </form>
             <button>SEND</button>
           </div>
-        <div className={styles.emailink}>
-          {/* <h5>andreptorres@gmail.com</h5> */}
-          <h5>andreptorres@me.com</h5>
-          <a href="andreptorres@gmail.com">andreptorres@gmail.com</a>
+         
+
+{/* EMAIL LINK */}
+        <div className={styles.emailLink}>
+          
+          <div className={styles.mailMe}>
+            <img src="/email.png"></img>
+          </div>
+            <h5 className={styles.me}>&rarr; andreptorres@me.com</h5>
+
+
+
+
+          <div className={styles.phoneLogo}>
+            <img src="/phone.png"></img>
+          </div>
+            <h5 className={styles.phone}>&rarr; (929)288-9744</h5>
+
+
+
+
+        <div className={styles.gmail}>
+          <img src="/email.png"></img>
+        </div>
+
+            <a className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</a>
+        
         </div>
 
         </div>
