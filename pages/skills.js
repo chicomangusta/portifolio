@@ -113,33 +113,3 @@ export default function Skills() {
 }
 
 
-//  <div className={styles.backEnd}>
-//             <p>Back</p>
-//             <ul>
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//             </ul>
-//           </div>
-
-
-//           <div className={styles.otherEnd}>
-//             <p>Other</p>
-//             <ul>
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//               <br />
-//               <li></li>
-//             </ul>
-//           </div>

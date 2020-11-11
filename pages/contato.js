@@ -6,7 +6,7 @@ export default function Contato() {
   return (
     <>
       <div className={styles.container}>
-        <h1>CONTACT ME</h1>
+        
         <h3>
           <Link href="/">
             <a>&larr;Back to home</a>
@@ -36,7 +36,14 @@ export default function Contato() {
 
 
 
+            <div className={styles.gmail}>
+              <img src="/email.png"></img>
+            </div>
 
+            <a className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</a>
+
+
+<br />
           <div className={styles.phoneLogo}>
             <img src="/phone.png"></img>
           </div>
@@ -45,11 +52,7 @@ export default function Contato() {
 
 
 
-        <div className={styles.gmail}>
-          <img src="/email.png"></img>
-        </div>
-
-            <a className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</a>
+        
         
         </div>
 

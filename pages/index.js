@@ -1,15 +1,7 @@
 import Head   from 'next/head'
 import styles from '../styles/Home.module.css'
-// import logoImage from '../LOGO/logo_size.jpg';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { config, library } from "@fortawesome/fontawesome-svg-core";
-// import { faGithub }        from '@fortawesome/free-solid-svg-icons';
-// import { fab }             from '@fortawesome/free-brands-svg-icons';
-// import { far }             from '@fortawesome/free-regular-svg-icons';
-import { fas } from '@fortawesome/free-regular-svg-icons';
 
-// config.autoAddCss = false;
-// library.add( fab, far );
+
 
 
 
@@ -18,9 +10,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          <img src="/logo_aba.jpg" />
           Andre Torres Developer
         </title>
+        
         <link rel="icon" href="/favicon.ico" />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
