@@ -13,12 +13,18 @@ export default function Skills() {
         </h3>
 
         <div className={styles.contSkills}>
+          
           <div className={styles.card_eduFront}>
-            {/* <p className={styles.mySkills1}>my skills &rarr;</p> */}
 
-            <div className={styles.frontEnd}>
-              <p>FrontEnd&rarr;</p>
-              <ul>
+            <div className={styles.nameLogo}>
+              <p>Front End</p>
+              <img className={styles.frontLogo} src="/frontEndLogo.png"></img>
+            </div>
+
+            <div className={styles.frontEnd}> 
+              <br />
+              
+              <ul>                
                 <li>&rarr; NEXT.JS</li>
                 <br />
                 <li>&rarr; REACT</li>
@@ -46,9 +52,14 @@ export default function Skills() {
           </div>
 
           <div className={styles.card_eduFront}>
+
+            <div className={styles.nameLogoBack}>
+              <p>Back End</p>
+              <img className={styles.backLogo} src="/backEndLogo.png"></img>
+            </div>
+
             <div className={styles.backEnd}>
-              <br />
-              <p>BackEnd&rarr;</p>
+              
               <ul>
                 <li>&rarr; REACT</li>
                 <br />
@@ -70,10 +81,18 @@ export default function Skills() {
             </div>
           </div>
 
+
+
+
           <div className={styles.card_eduFront}>
+
+            <div className={styles.nameLogOther}>
+              <p>Back End</p>
+              <img className={styles.otherLogo} src="/backEndLogo.png"></img>
+            </div>
+
             <div className={styles.otherEnd}>
-              <p>Other Technologies&rarr;</p>
-              <br />
+              
               <ul>
                 <li>&rarr; COLOR CORRECTION</li>
                 <br />
