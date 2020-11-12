@@ -13,7 +13,7 @@ export default function Contato() {
           </Link>
         </h3>
 
-        <div className={styles.card_edu}>
+        <div className={styles.card_eduContact}>
           <div className={styles.form}>
             <h2 className={styles.newSection}>CONTACT ME</h2>
             <form method="POST" className="contact-form">
@@ -40,7 +40,7 @@ export default function Contato() {
               <img src="/email.png"></img>
             </div>
 
-            <a className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</a>
+            <h5 className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</h5>
 
 
 <br />

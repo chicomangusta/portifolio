@@ -87,8 +87,8 @@ export default function Skills() {
           <div className={styles.card_eduFront}>
 
             <div className={styles.nameLogOther}>
-              <p>Back End</p>
-              <img className={styles.otherLogo} src="/backEndLogo.png"></img>
+              <p>Other Tech</p>
+              <img className={styles.otherLogo} src="/tech2.png"></img>
             </div>
 
             <div className={styles.otherEnd}>
