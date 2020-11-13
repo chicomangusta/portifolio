@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4AA4B2
+  background-color: #FAFAF9
 }
 
 .main {
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #318997;
+  background-color: #FAFAF9;
   color: black;
   font-size: 11px;
 }
