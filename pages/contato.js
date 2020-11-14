@@ -16,13 +16,13 @@ export default function Contato() {
         <div className={styles.card_eduContact}>
           <div className={styles.form}>
             <h2 className={styles.newSection}>CONTACT ME</h2>
-            <form method="POST" className="contact-form">
+            {/* <form method="POST" className="contact-form">
               <input type="text" placeholder="Name" id="name" />
               <input type="text" placeholder="Email" id="email" />
               <input type="text" placeholder="Subject" id="subject" />
               <textarea rows="6" placeholder="Message" id="message"></textarea>
             </form>
-            <button>SEND</button>
+            <button>SEND</button> */}
           </div>
          
 
