@@ -6,11 +6,9 @@ export default function Contato() {
   return (
     <>
       <div className={styles.container}>
-        
+        <h1 className={styles.contact}>CONTACT</h1>
         <h3>
-          <Link href="/">
-            <a>&larr;Back to home</a>
-          </Link>
+          <Link href="/"><a>&larr;Back to home</a></Link>
         </h3>
 
         <div className={styles.card_eduContact}>

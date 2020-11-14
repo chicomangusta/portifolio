@@ -387,13 +387,13 @@
 
 
 
-
-
 .newSection {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   text-align: center;
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 400;
+  color: #E85D2C;
+  text-decoration: underline;
 }
 
 
@@ -479,12 +479,12 @@
   /* display: flex; */
   /* justify-content: center; */
   margin-left: 60px;
-  margin-top: -26px;
+  margin-top: -28px;
 }
 
 .mailMe img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -500,15 +500,15 @@
 }
 
 .gmail img {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   margin-top: 30px;
 }
 
 .gmailLink {
   /* border: 1px solid black; */
   margin-left: 60px;
-  margin-top: -26px;
+  margin-top: -28px;
   font-size: 20px;
   font-weight: 300;
   width: 240px;
@@ -525,14 +525,14 @@
 }
 
 .phoneLogo img {
-  width: 20px;
-  height: 20px;
-  margin-top: 30px;
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
 }
 
 .phone {
   margin-left: 60px;
-  margin-top: -26px;
+  margin-top: -27px;
   font-size: 20px;
   font-weight: 300;
 }
