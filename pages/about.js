@@ -15,7 +15,7 @@ export default function Education() {
         <div className={styles.card_edu}>
           <h4>My Background &rarr;</h4>
           <p className={styles.about_me}>
-            Hi, my name is Andre Torres, I'm a Developer.<br /> I'm an American/Brazilian. I've levied
+            Hi, my name is Andre Torres, I'm a Developer.<br /> I'm an American/Brazilian. I've lived
             almost half of my life in Brazil and the other half in the USA.
             Currently I live in New York - USA. I graduated in Photography in
             Brazil and specialized in Director of photography, doing a lot of
