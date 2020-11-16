@@ -75,7 +75,7 @@ export default function Home() {
           <a href="/about" className={styles.card}>
             <h3>ABOUT ME &rarr;</h3>
             <p>
-              Hi, I'm Andre Torres an Software Engineer with a creative mind,
+              Hi, I'm Andre Torres a Software Engineer with a creative mind,
               developing front-end and back-end applications.
             </p>
             <br />
