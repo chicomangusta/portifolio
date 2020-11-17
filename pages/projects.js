@@ -14,7 +14,7 @@ export default function Projects() {
 
         <div className={styles.card_edu}>
           <div className={styles.todoList}>
-            <img src="/todo2.png" className={styles.snap} />
+            < a href="https://andre-todolist.web.app/"> <img src="/todo2.png" className={styles.snap} /></a>
 
             <div className={styles.todoDesc}>
               <div className={styles.todoTtitle}>
@@ -43,7 +43,7 @@ export default function Projects() {
 
         <div className={styles.card_edu}>
           <div className={styles.todoList}>
-            <img src="/noDigNoRide.png" className={styles.snap} />
+            <a href=""> <img src="/noDigNoRide.png" className={styles.snap} /></a>
 
             <div className={styles.todoDesc}>
               <div className={styles.todoTtitle}>NO DIG NO RIDE &rarr;</div>
@@ -64,7 +64,7 @@ export default function Projects() {
 
         <div className={styles.card_edu}>
           <div className={styles.todoList}>
-            <img src="/duck-hunt.jpg" className={styles.snap} />
+            <a href="https://chicomangusta.github.io/DUCK_HUNT/"> <img src="/duck-hunt.jpg" className={styles.snap} /></a>
 
             <div className={styles.todoDesc}>
               <div className={styles.todoTtitle}>DUCK HUNT &rarr;</div>
@@ -89,7 +89,7 @@ export default function Projects() {
 
         <div className={styles.card_edu}>
           <div className={styles.todoList}>
-            <img src="/StarWars.png" className={styles.snap} />
+            <a href="https://codepen.io/chicomangusta/full/vYYJzVx"> <img src="/StarWars.png" className={styles.snap} /></a>
 
             <div className={styles.todoDesc}>
               <div className={styles.todoTtitle}>STAR WARS - API &rarr;</div>
