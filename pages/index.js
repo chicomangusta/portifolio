@@ -23,7 +23,7 @@ export default function Home() {
       {/* ------------------------------------------------------------------------------------------------ */}
 
       {/* LOGO */}
-      <a href="">
+      <a href="https://andreptorres.com/">
         <img src="/logo_size_laranja.jpg" className={styles.logo} />
       </a>
 
