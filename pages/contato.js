@@ -8,7 +8,9 @@ export default function Contato() {
       <div className={styles.container}>
         <h1 className={styles.contact}>CONTACT</h1>
         <h3>
-          <Link href="/"><a>&larr;Back to home</a></Link>
+          <Link href="/">
+            <a>&larr;Back to home</a>
+          </Link>
         </h3>
 
         <div className={styles.card_eduContact}>
@@ -22,38 +24,32 @@ export default function Contato() {
             </form>
             <button>SEND</button> */}
           </div>
-         
 
-{/* EMAIL LINK */}
-        <div className={styles.emailLink}>
-          
-          <div className={styles.mailMe}>
-            <img src="/email.png"></img>
-          </div>
-            <h5 className={styles.me}>&rarr; andreptorres@me.com</h5>
-
-
-
+          {/* EMAIL LINK */}
+          <div className={styles.emailLink}>
             <div className={styles.gmail}>
               <img src="/email.png"></img>
             </div>
 
-            <h5 className={styles.gmailLink} href="andreptorres@gmail.com">&rarr; andreptorres@gmail.com</h5>
+            <h5
+              className={styles.gmailLink}
+              href="andreptorres@andreptorres.com"
+            >
+              &rarr; andre@andreptorres.com
+            </h5>
 
+            <div className={styles.mailMe}>
+              <img src="/email.png"></img>
+            </div>
+            <h5 className={styles.me}>&rarr; andreptorres@me.com</h5>
 
-<br />
-          <div className={styles.phoneLogo}>
-            <img src="/phone.png"></img>
-          </div>
+            <br />
+            <br />
+            <div className={styles.phoneLogo}>
+              <img src="/phone.png"></img>
+            </div>
             <h5 className={styles.phone}>&rarr; (929)288-9744</h5>
-
-
-
-
-        
-        
-        </div>
-
+          </div>
         </div>
       </div>
     </>
