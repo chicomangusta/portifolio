@@ -9,16 +9,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>
-          Andre Torres Developer
-        </title>
-        
+        <title>Andre Torres Developer</title>
+
         <link rel="icon" href="/favicon.ico" />
         {/* <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link> */}
-      </Head>       
+      </Head>
 
       {/* ------------------------------------------------------------------------------------------------ */}
 
@@ -41,13 +39,18 @@ export default function Home() {
         {/* ------------------------------------------------------------------------------------------------ */}
 
         {/* GITHUB */}
-        <a href="https://github.com/ChicoMangusta" className={styles.git}>
+        <a
+          href="https://github.com/ChicoMangusta"
+          target="_blank"
+          className={styles.git}
+        >
           <img src="github_logo.svg" className={styles.git} />
         </a>
 
         {/* LINKEDIN */}
         <a
           href="https://www.linkedin.com/in/andre-torres-dev//"
+          target="_blank"
           className={styles.linkedin}
         >
           <img src="linkedin.svg" className={styles.linkedin} />
@@ -56,6 +59,7 @@ export default function Home() {
         {/* INSTAGRAM */}
         <a
           href="https://www.instagram.com/ndreptorres/"
+          target="_blank"
           className={styles.instagram}
         >
           <img src="instagram.png" className={styles.instagram} />
@@ -135,7 +139,6 @@ export default function Home() {
             <p>MORE&rarr;</p>
           </a>
         </div>
-
       </main>
 
       {/* ------------------------------------------------------------------------------------------------ */}
