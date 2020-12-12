@@ -7,6 +7,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>Andre Torres Developer</title>
@@ -24,6 +25,11 @@ export default function Home() {
       <a href="https://andreptorres.com/">
         <img src="/logo_size_laranja.jpg" className={styles.logo} />
       </a>
+      {/* ------------------------------------------------------------------------------------------------ */}
+     
+      <div className={styles.xmas}>
+        <img src="https://res.cloudinary.com/dqiighjqq/image/upload/v1607745853/christmas-feature_759_lzzkc7.jpg" className={styles.xmas1} />
+      </div>
 
       {/* ------------------------------------------------------------------------------------------------ */}
 
@@ -35,6 +41,9 @@ export default function Home() {
         <p className={styles.description}>
           SOFTWARE ENGINEER || FRONT-END|| FULLSTACK
         </p>
+
+
+        
 
         {/* ------------------------------------------------------------------------------------------------ */}
 
