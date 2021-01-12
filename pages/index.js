@@ -27,9 +27,7 @@ export default function Home() {
       </a>
       {/* ------------------------------------------------------------------------------------------------ */}
      
-      <div className={styles.xmas}>
-        <img src="https://res.cloudinary.com/dqiighjqq/image/upload/v1607745853/christmas-feature_759_lzzkc7.jpg" className={styles.xmas1} />
-      </div>
+    
 
       {/* ------------------------------------------------------------------------------------------------ */}
 
