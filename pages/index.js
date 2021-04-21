@@ -154,7 +154,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a>
-          Created by &copy; Andre Torres 2020
+          Created by &copy; Andre Torres 2021
           <img
             src="/logo_size_laranja.jpg"
             alt="Logo"
