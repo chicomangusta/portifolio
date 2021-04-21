@@ -41,7 +41,7 @@ export default function Contato() {
             <div className={styles.mailMe}>
               <img src="/email.png"></img>
             </div>
-            <h5 className={styles.me}>&rarr; andreptorres@gmail.com</h5>
+            <h5 className={styles.me}>&rarr; github.com/ChicoMangusta</h5>
 
             <br />
             <br />
