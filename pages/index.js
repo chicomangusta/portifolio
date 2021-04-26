@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ANDRE TORRES <a href="">DEVELOPER</a>
+          ANDRE TORRES <a href="">DEVELOPERR</a>
         </h1>
 
         <p className={styles.description}>
