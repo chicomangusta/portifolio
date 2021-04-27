@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ANDRE TORRES <a href="">DEVELOPERR</a>
+          ANDRE TORRES <a href="">DEVELOPER</a>
         </h1>
 
         <p className={styles.description}>
@@ -82,7 +82,9 @@ export default function Home() {
         {/* ------------------------------------------------------------------------------------------------ */}
 
         <div className={styles.grid}>
+          
           {/* ABOUT ME */}
+          <div className={styles.about}>
           <a href="/about" className={styles.card}>
             <h3>ABOUT ME &rarr;</h3>
             <p>
@@ -98,8 +100,10 @@ export default function Home() {
             <br />
             <p>MORE&rarr;</p>
           </a>
+          </div>
 
           {/* SKILLS */}
+          <div className={styles.skills}>
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
             <div className={styles.cardSkill}>
@@ -117,8 +121,10 @@ export default function Home() {
             </div>
             <p className={styles.moreP}>MORE&rarr;</p>
           </a>
+          </div>
 
           {/* EDUCATION */}
+          <div className={styles.edu}>
           <a href="/education" className={styles.card}>
             <h3>EDUCATION &rarr;</h3>
             <ul>
@@ -130,8 +136,11 @@ export default function Home() {
             </ul>
             <p>MORE&rarr;</p>
           </a>
+          </div>
+
 
           {/* PROJECTS */}
+          <div className={styles.proj}>
           <a href="/projects" className={styles.card}>
             <h3>PROJECTS &rarr;</h3>
             <ul>
@@ -145,6 +154,9 @@ export default function Home() {
             </ul>
             <p>MORE&rarr;</p>
           </a>
+          </div>
+
+
         </div>
       </main>
 
