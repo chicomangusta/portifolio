@@ -34,7 +34,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          SOFTWARE ENGINEER || FRONT-END || FULLSTACK
+          SOFTWARE ENGINEER || FRONT-END || FULLSTACK 
         </p>
 
 
