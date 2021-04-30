@@ -1,4 +1,4 @@
-import Head   from 'next/head'
+import Head   from 'next/Head'
 import styles from '../styles/Home.module.css'
 
 
@@ -30,7 +30,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ManG TORRES <a href="">DEVELOPER</a>
+          ANDRE TORRES <a href="">DEVELOPER</a>
         </h1>
 
         <p className={styles.description}>
