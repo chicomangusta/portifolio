@@ -30,7 +30,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          ANDRE TORRES <a href="">DEVELOPER</a>
+          ManG TORRES <a href="">DEVELOPER</a>
         </h1>
 
         <p className={styles.description}>
