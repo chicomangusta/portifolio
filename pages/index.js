@@ -12,16 +12,18 @@ export default function Home() {
       <Head>
         <title>Andre Torres Developer</title>
 
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
         
       </Head>
 
       {/* ------------------------------------------------------------------------------------------------ */}
 
       {/* LOGO */}
+    <div className="logCont">  
       <a href="https://andreptorres.com/">
         <img src="/logo_size_laranja.jpg" className={styles.logo} />
       </a>
+      </div>  
       {/* ------------------------------------------------------------------------------------------------ */}
      
     
@@ -41,7 +43,7 @@ export default function Home() {
         
 
         {/* ------------------------------------------------------------------------------------------------ */}
-
+      
         {/* GITHUB */}
         <a
           href="https://github.com/ChicoMangusta"
@@ -73,6 +75,8 @@ export default function Home() {
         <a href="/contato" className={styles.contato}>
           <img src="email.png" className={styles.contato} />
         </a>
+      
+
 
         {/* ------------------------------------------------------------------------------------------------ */}
         {/* CARDS */}
@@ -84,9 +88,14 @@ export default function Home() {
           <div className={styles.about}>
           <a href="/about" className={styles.card}>
             <h3>ABOUT ME &rarr;</h3>
+              <br />
+              <br />
             <p>
-              Hi, I'm Andre Torres a Software Engineer with a creative mind,
-              developing front-end and back-end applications.
+              Hi, I'm Andre Torres a Software Engineer, Front-End and Fullstack.
+              <br />
+              With my background skills in of Cinematography (photo, video, and post-production) helps me create solutions that makes and
+              better design and clean code applications. I am able to perform collaboratively with teamwork and in remote, with a keen 
+              vision for details that helps solve problems and creating solutions.
             </p>
             <br />
             <p>
@@ -104,6 +113,8 @@ export default function Home() {
           <a href="/skills" className={styles.card}>
             <h3>SKILLS &rarr;</h3>
             <div className={styles.cardSkill}>
+                <br />
+                <br />
               <ul>
                 <li>NEXT.JS</li>
                 <br />
@@ -124,6 +135,7 @@ export default function Home() {
           <div className={styles.edu}>
           <a href="/education" className={styles.card}>
             <h3>EDUCATION &rarr;</h3>
+              <br />
             <ul>
               <li>Software Engineer - General Assembly</li>
               <br />
@@ -140,6 +152,7 @@ export default function Home() {
           <div className={styles.proj}>
           <a href="/projects" className={styles.card}>
             <h3>PROJECTS &rarr;</h3>
+            <br />
             <ul>
               <li>To do List - Final Project - GA</li>
               <br />
@@ -147,7 +160,10 @@ export default function Home() {
               <br />
               <li>Codesk - Third Project - GA</li>
               <br />
-              <li>No Dig No Ride - Fourth Project - GA </li> <br />
+              <li>No Dig No Ride - Fourth Project - GA </li> 
+              <br />
+              <li>Andre Torres - Portfolio Project - GA</li>
+              <br />
             </ul>
             <p>MORE&rarr;</p>
           </a>
