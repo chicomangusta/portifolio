@@ -1,4 +1,4 @@
-// import Head   from 'next/Head'
+import Head   from 'next/Head'
 import styles from '../styles/Home.module.css'
 
 
@@ -9,12 +9,12 @@ export default function Home() {
   return (
     
     <div className={styles.container}>
-      {/* <Head> */}
+      <Head> 
         <title>Andre Torres Developer</title>
 
         {/* <link rel="icon" href="/favicon.ico" /> */}
         
-      {/* </Head> */}
+       </Head>
 
       {/* ------------------------------------------------------------------------------------------------ */}
 
