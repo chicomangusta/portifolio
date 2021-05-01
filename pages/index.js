@@ -1,4 +1,4 @@
-import Head   from 'next/Head'
+// import Head   from 'next/Head'
 import styles from '../styles/Home.module.css'
 
 
